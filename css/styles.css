@@ -19,17 +19,14 @@
 
 }
 
-.background-img {
-    background-image: url("../img/fondo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-
-}
 
 .obstacles-size{
-    width:30%;
+    width:100%;
     justify-content: center;
+}
+
+.obstacles-size img{
+	width: 30%;
 }
 
 .container-obs {
@@ -64,14 +61,20 @@
 
 }
 
-.container-how {
+.mt-5 {
+  margin-top: 0!important;
+}
+
+.container-how1 {
     font-family: "bakemono-variable", sans-serif;
     font-variation-settings: "MONO" 0, "wght" 400;
     width: 800px;
     height: 12vh;
     background: #A5E2AB;
     border-radius: 119px;
-    padding-left: 15vh;
+	color:blue;
+	align-items: center;
+
 
 }
 
@@ -81,12 +84,35 @@
     background: #F04590;
     border-radius: 119px;
     align-items: center;
-    width: 40%;
+    width: 50%;
     height: 10%;
+		margin-top: 30px;
+	
 }
 
-.footer{
-    background-color: black;
-    height: 20vh;
+.container-how{
+	font-family: "onektubular";
+    font-size: 6vh;
+	text-align: center;
+	 width: 800px;
+    height: 12vh;
+    background: #A5E2AB;
+    border-radius: 119px;
+	color:blue;
 }
+
+.rega{
+	width: 50%;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.rega p{
+  font-family: "bakemono-variable", sans-serif;
+    font-variation-settings: "MONO" 0, "wght" 400;
+    font-size: 3vh;
+	color: white;
+}
+
 
