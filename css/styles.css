@@ -80,7 +80,7 @@
 .container-regalo{
     font-family: "onektubular";
     font-size: 6vh;
-    background: #F04590;
+    background-color: black;
     border-radius: 119px;
     align-items: center;
     width: 50%;
@@ -136,7 +136,7 @@
 
 
 .obstacles-size{
-    width:100%;
+    width:60%;
     justify-content: center;
 }
 
@@ -166,7 +166,7 @@
 }
 
 .container-gift{
-    background: #F04590;
+    background: blue;
     padding-left: 15vh;
     border-radius: 119px;
     align-items: center;
@@ -184,6 +184,7 @@
     font-variation-settings: "MONO" 0, "wght" 400;
     width: 800px;
     height: 12vh;
+	font-size: 4vh;
     background: #A5E2AB;
     border-radius: 119px;
 	color:blue;
@@ -206,7 +207,7 @@
 
 .container-how{
 	font-family: "onektubular";
-    font-size: 6vh;
+    font-size: 8vh;
 	text-align: center;
 	 width: 800px;
     height: 12vh;
@@ -225,7 +226,7 @@
 .rega p{
   font-family: "bakemono-variable", sans-serif;
     font-variation-settings: "MONO" 0, "wght" 400;
-    font-size: 3vh;
+    font-size: 8vh;
 }
 
 
