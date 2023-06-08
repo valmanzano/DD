@@ -115,4 +115,120 @@
 	color: white;
 }
 
+@font-face {
+	font-family: "onektubular";
+	src: url("../fonts/OnekTubular.otf") format("woff");
+	font-weight: normal;
+	font-style:normal;	
+}
+
+
+.imagen {
+    width:50%;
+    align-self: center;
+}
+
+.background-img {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+
+.obstacles-size{
+    width:100%;
+    justify-content: center;
+}
+
+.obstacles-size img{
+	width: 30%;
+}
+
+.container-obs {
+    font-family: "onektubular";
+    font-size: 8vh;
+    background: #F6DE0A;
+    border-radius: 119px;
+   text-align: center;
+    width: 40%;
+    height: 10%;
+    margin-top: 20px ;
+}
+
+.imagen-arrow{
+    width:70%;
+    align-self: center;
+}
+
+.container-fluid {
+    background-color: #692F59;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-gift{
+    background: #F04590;
+    padding-left: 15vh;
+    border-radius: 119px;
+    align-items: center;
+    width: 40%;
+    height: 10%;
+
+}
+
+.mt-5 {
+  margin-top: 0!important;
+}
+
+.container-how1 {
+    font-family: "bakemono-variable", sans-serif;
+    font-variation-settings: "MONO" 0, "wght" 400;
+    width: 800px;
+    height: 12vh;
+    background: #A5E2AB;
+    border-radius: 119px;
+	color:blue;
+	align-items: center;
+
+
+}
+
+.container-regalo{
+    font-family: "onektubular";
+    font-size: 6vh;
+    background: #F04590;
+    border-radius: 119px;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+		margin-top: 30px;
+	
+}
+
+.container-how{
+	font-family: "onektubular";
+    font-size: 6vh;
+	text-align: center;
+	 width: 800px;
+    height: 12vh;
+    background: #A5E2AB;
+    border-radius: 119px;
+	color:blue;
+}
+
+.rega{
+	width: 50%;
+	text-align: center;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.rega p{
+  font-family: "bakemono-variable", sans-serif;
+    font-variation-settings: "MONO" 0, "wght" 400;
+    font-size: 3vh;
+}
+
 
