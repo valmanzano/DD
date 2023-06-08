@@ -21,23 +21,22 @@
 
 
 .obstacles-size{
-    width:100%;
+    width:60%;
     justify-content: center;
 }
 
 .obstacles-size img{
-	width: 30%;
+	width: 10%;
+    padding-bottom: 30px;
 }
 
 .container-obs {
     font-family: "onektubular";
-    font-size: 8vh;
-    background: #F6DE0A;
+    font-size: 15vh;
+    background: red;
     border-radius: 119px;
    text-align: center;
-    width: 40%;
-    height: 10%;
-    margin-top: 20px ;
+   margin: 0;
 }
 
 .imagen-arrow{
@@ -86,7 +85,6 @@
     align-items: center;
     width: 50%;
     height: 10%;
-		margin-top: 30px;
 	
 }
 
@@ -154,7 +152,6 @@
    text-align: center;
     width: 40%;
     height: 10%;
-    margin-top: 20px ;
 }
 
 .imagen-arrow{
